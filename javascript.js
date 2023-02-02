@@ -36,6 +36,7 @@ function game()
         const playerSelection = prompt("Enter rock, paper or scissors");
         let computerSelection = getComputerChoice(); 
         console.log(playGame(playerSelection,computerSelection));
+        //added comment
     }
 }
 //console.log(getComputerChoice());

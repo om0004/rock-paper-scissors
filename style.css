@@ -70,6 +70,7 @@ h1
     display:flex;
     justify-content:center;
     gap:50px;
+    flex-wrap:wrap;
 }
 .lower button
 {

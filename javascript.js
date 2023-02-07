@@ -85,7 +85,7 @@ function findEmoji(selection)
 }
 function game(e)
 {
-    let playerSelection = e.target.id;
+    let playerSelection = e.target.id; // or this.id
     // find value of clicked icon through ID
     let computerSelection = getComputerChoice();
     // random computer selection 
@@ -100,7 +100,7 @@ function game(e)
 
     
 }
-let click = document.querySelectorAll('.lower div');
+let click = document.querySelectorAll('.lower button');
 
 click.forEach((button) =>
 {
